@@ -472,7 +472,7 @@ Rootfinding
 ===========
 
 The IDAS solver has been augmented to include a rootfinding feature. This means
-that, while integratnuming the Initial Value Problem :eq:`IDAS_DAE`, IDAS can also
+that, while integrating the Initial Value Problem :eq:`IDAS_DAE`, IDAS can also
 find the roots of a set of user-defined functions :math:`g_i(t,y,\dot{y})` that
 depend on :math:`t`, the solution vector :math:`y = y(t)`, and its :math:`t-`\
 derivative :math:`\dot{y}(t)`. The number of these root functions is arbitrary,
